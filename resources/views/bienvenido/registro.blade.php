@@ -20,7 +20,7 @@
                 name="passwordconf">
 
 
-                <button type="button" class="rounded-md bg-blue-500 w-full text-lg text-white font-seimbold p-2 my-3 hover:bg-indigo-600">Enviar</button>
+                <a href="{{ route('bienvenido.sesion') }}"><button type="button" class="rounded-md bg-blue-500 w-full text-lg text-white font-seimbold p-2 my-3 hover:bg-indigo-600">Enviar</button></a>
         </form>
     </div>
 

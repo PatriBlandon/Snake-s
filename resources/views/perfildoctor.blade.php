@@ -97,6 +97,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
 
       {{--Columnas--}}
       <div class="row">
@@ -105,7 +106,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aperiam illo temporibus obcaecati laborum quibusdam?</p>
         </div>
         <div class="col">
-            <h2>Localizacion</h2>
+            <h2>Contacto</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aperiam illo temporibus obcaecati laborum quibusdam?</p>
         </div>
       </div>

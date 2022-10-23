@@ -28,77 +28,18 @@
         {{--parte columa valoraciones--}}
         <div class="row">
             <div class="col">
-                <h2>Servicios</h2>
+                <h2>Valoraciones</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ea reiciendis nobis.</p>
             </div>
         </div> <br>
     </div> <br>
-    
-    {{--Contenedor de img de fondo y columnas desplegables hacia abajo--}}
-    <div class="card text-bg-light">
-        <img src="./img/fondo1.jpg" class="card-img" alt="fondofotoopacidad" style="height:430px">
-        {{--conjunto de tarjetas dentro de fondo--}}
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">"Servicio1"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">"servicio2"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-            </div>
-            </div>
-            <div class="col">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">"servicio3"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>                </div>
-            </div>
-            </div>
-        {{--segunda seccion--}}
-            <div class="col">
-                <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">"servicio4"</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">"servicio5"</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">"servicio6"</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>                </div>
-                </div>
-            </div>
-        </div>
-    </div> <br>
+
+
     {{--contenedor valoraciones--}}
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2>Servicios</h2>
+                <h2>Comentarios</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ea reiciendis nobis.</p>
             </div>
         </div>
@@ -116,44 +57,34 @@
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <div class="card-body">
-                <h5 class="card-title">"Comentario1"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p><hr>
-                <h6 style="text-small">+675334545454</h6>
+                <h5 class="card-title">"</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <div class="card-body">
-                <h5 class="card-title">"Comentario2"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p><hr>
-                <h6 style="text-small">+675334545454</h6>
+                <h5 class="card-title">"</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>           <h6 style="text-small">+675334545454</h6>
             </div>
           </div>
           <div class="carousel-item">
             <div class="card-body">
-                <h5 class="card-title">"Comentario3"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p><hr>
-                <h6 style="text-small">+675334545454</h6>
-            </div>
+                <h5 class="card-title">"</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>            </div>
           </div>
           <div class="carousel-item">
             <div class="card-body">
-                <h5 class="card-title">"Comentario4"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p><hr>
-                <h6 style="text-small">+675334545454</h6>
-            </div>
+                <h5 class="card-title">"</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>            </div>
           </div>
           <div class="carousel-item">
             <div class="card-body">
-                <h5 class="card-title">"Comentario5"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p><hr>
-                <h6 style="text-small">+675334545454</h6>
-            </div>
-          </div>
+                <h5 class="card-title">"</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>          </div>
           <div class="carousel-item">
             <div class="card-body">
-                <h5 class="card-title">"Coementario6"</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p><hr>
-                <h6 style="text-small">+675334545454</h6>
+                <h5 class="card-title">"</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
         </div>
@@ -165,5 +96,17 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+
+      {{--Columnas--}}
+      <div class="row">
+        <div class="col">
+            <h2>Localizacion</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aperiam illo temporibus obcaecati laborum quibusdam?</p>
+        </div>
+        <div class="col">
+            <h2>Localizacion</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque aperiam illo temporibus obcaecati laborum quibusdam?</p>
+        </div>
       </div>
 @endsection

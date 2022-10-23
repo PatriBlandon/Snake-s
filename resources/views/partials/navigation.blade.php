@@ -11,8 +11,28 @@
      </button>
     <div class="container-fluid">
       <div class="collapse navbar-collapse"  id="navbarNav">
-        <a class="navbar-brand" href="{{ route('welcome') }}">Bienvenidos</a>
+        <a class="navbar-brand">Bienvenidos</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('clinica') }}">Clinicas Medicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('medicos') }}">Médicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('contact') }}">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('about') }}">Acerca de</a>
+            </li>
+            {{--<li class="nav-item">
+              <a class="nav-link" href="{{ route('login') }}">Registrate</a>
+            </li>--}}
+          </ul>
       </div>
+      {{--<form class="d-flex" role="registro">
+          <a href="{{ route('login') }}"><button class="btn btn-outline-success" type="submit">Registrate</button></a>
+      </form>--}}
     </div>
   </nav>
 <nav>

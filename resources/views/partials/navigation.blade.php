@@ -20,9 +20,6 @@
               <a class="nav-link" href="{{ route('medicos') }}">Médicos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('contact') }}">Contactos</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="{{ route('about') }}">Acerca de</a>
             </li>
             {{--<li class="nav-item">

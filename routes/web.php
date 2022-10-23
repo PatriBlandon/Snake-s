@@ -17,7 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome')->name('welcome');
 //rutas clinicas
 Route::view('/clinicas', 'clinica')->name('clinica');
+Route::view('/descriptionmedic', 'descriptionmedic')->name('descriptionmedic');
+//rutas medicos
 Route::view('medicos', 'medicos')->name('medicos');
+//ruta contacto
 Route::view('/contacto', 'contact')->name('contact');
+//ruta acerca de
 Route::view('/acercade', 'about')->name('about');
+
 

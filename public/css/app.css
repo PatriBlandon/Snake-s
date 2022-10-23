@@ -7,15 +7,3 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-
-.tarjeta{
-    height: 500px;
-    color: blue;
-    background-size: cover;
-    background-position: center;
-}
-
-.tarjeta .h5 {
-    color: brown;
-    text-align: center;
-}

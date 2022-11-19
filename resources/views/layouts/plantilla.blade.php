@@ -20,11 +20,10 @@
 <body>
 {{--Forma de armarlo pero con componentes--}}
 {{--<x-navigation/>--}}
-@include('partials.navigation')
+    @include('partials.navigation')
 {{--utilizamos herencia--}}
 
-@yield('content')
-
+    @yield('content')
 
     <footer>
         <div class="grupo1">

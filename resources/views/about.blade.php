@@ -3,13 +3,14 @@
  @section('meta-description', 'Acerca de meta description')
 
  @section('content')
-
-    <div class="row justify-text-center">
-        <div class="col col-sm-4">
-            <h2>
-                Somos Healthlink
-            </h2> <hr>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magnam!</p>
+    <div class="container">
+        <div class="row justify-text-center">
+            <div class="col col-sm-4">
+                <h2>
+                    Somos Healthlink
+                </h2> <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magnam!</p>
+            </div>
         </div>
     </div>
  @endsection

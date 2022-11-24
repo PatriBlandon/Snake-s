@@ -8,6 +8,7 @@ Route::view('/clinicas', 'clinica')->name('clinica');
 Route::view('/descripcionclinica', 'descriptionclinic')->name('descriptionclinic');
 //rutas medicos
 Route::view('medicos', 'medicos')->name('medicos');
+Route::view('/medico/perfildoctor', 'descriptionmedic')->name('perfildoctor');
 Route::view('/perfildoctor', 'perfildoctor')->name('perfildoctor');
 //ruta descripcion medica
 Route::view('/descriptionmedic', 'descriptionmedic')->name('descriptionmedic');

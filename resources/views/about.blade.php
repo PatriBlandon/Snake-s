@@ -9,7 +9,7 @@
                 <h2>
                     Somos Healthlink
                 </h2> <hr>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magnam!</p>
+                <p>Obsecionados con ayudarle y hacerte sentir mucho mejor!</p>
             </div>
         </div>
     </div>

@@ -1,17 +1,21 @@
 <?php
+
+use App\Http\Controllers\ClinicaController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MedicoController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('welcome');
 //rutas clinicas
-Route::view('/clinicas', 'clinica')->name('clinica');
-Route::view('/descripcionclinica', 'descriptionclinic')->name('descriptionclinic');
+Route::get('/clinica', [ClinicaController::class, 'bienvenido'])->name('clinica.clinica');;
+Route::get('/clinica/descripcionclinica', [ClinicaController::class, 'sesion'])->name('clinica.descriptionclinic');;
 //rutas medicos
-Route::view('medicos', 'medicos')->name('medicos');
-Route::view('/medico/perfildoctor', 'descriptionmedic')->name('perfildoctor');
-Route::view('/perfildoctor', 'perfildoctor')->name('perfildoctor');
+Route::get('/medicos', [MedicoController::class, 'hola'])->name('medico.medico');
+Route::get('/medicos/perfildoctor/descriptionmedic', [MedicoController::class , 'sesion'])->name('descriptionmedic');
+Route::get('/medicos/perfildoctor', [MedicoController::class, 'cola'])->name('medico.perfildoctor');
+//Route::view('/perfildoctor', 'perfildoctor')->name('perfildoctor');
 //ruta descripcion medica
-Route::view('/descriptionmedic', 'descriptionmedic')->name('descriptionmedic');
+
 //ruta contacto
 Route::view('/contacto', 'contact')->name('contact');
 //ruta acerca de

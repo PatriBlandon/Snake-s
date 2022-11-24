@@ -10,7 +10,7 @@
     <div class="fondo card text-bg-light">
         <img src="img/fondo1.jpg" class="card-img" alt="..." style="height:430px">
         <div class="card-img-overlay">
-        <h5 class="card-title">Clinicas</h5>
+        <h5 class="card-title">Medicos</h5>
         </div>
     </div><br>
 

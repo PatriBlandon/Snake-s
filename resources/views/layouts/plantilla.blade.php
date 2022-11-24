@@ -14,7 +14,7 @@
     <meta name="description" content="@yield('meta-description', 'Default meta description')" />
     {{--<meta name="description" content="{{ $meta-description?? 'Default meta description'}}" />--}}
     <link href="/boostrap/css/boostrap.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/modo.css" rel="stylesheet">
 
 </head>
 <body>

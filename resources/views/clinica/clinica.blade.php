@@ -31,7 +31,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
                             <h5 class="card-title">Clinica1</h5>
-                            <a href="{{ route ('descriptionclinic')}}" class="card-link">Clinica</a>
+                            <a href="{{ url('/clinica/descripcionclinica') }}" class="card-link">Clinica</a>
                             <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -41,7 +41,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
                             <h5 class="card-title">Clinica2</h5>
-                            <a href="{{ route ('descriptionclinic')}}" class="card-link">Card link</a>
+                            <a href="{{ url('/clinica/descripcionclinica') }}" class="card-link">Card link</a>
                             <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -51,7 +51,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
                             <h5 class="card-title">Clinica3</h5>
-                            <a href="{{ route ('descriptionclinic')}}" class="card-link">Card link</a>
+                            <a href="{{ url('/clinica/descripcionclinica') }}" class="card-link">Card link</a>
                             <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -64,7 +64,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
                             <h5 class="card-title">Clinica4</h5>
-                            <a href="{{ route ('descriptionclinic')}}" class="card-link">Card link</a>
+                            <a href="{{ url('/clinica/descripcionclinica') }}" class="card-link">Card link</a>
                             <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -74,7 +74,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
                             <h5 class="card-title">Clinica5</h5>
-                            <a href="{{ route ('descriptionclinic')}}" class="card-link">Card link</a>
+                            <a href="{{ url('/clinica/descripcionclinica') }}" class="card-link">Card link</a>
                             <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
@@ -84,7 +84,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="..." class="card-img-top" alt="...">
                             <h5 class="card-title">Clinica6</h5>
-                            <a href="{{ route ('descriptionclinic')}}" class="card-link">Card link</a>
+                            <a href="{{ url('/clinica/descripcionclinica') }}" class="card-link">Card link</a>
                             <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>

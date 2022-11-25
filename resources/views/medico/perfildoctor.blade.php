@@ -8,7 +8,7 @@
          <h2><a href="/clinicas/2">{{ 'content' }}</a></h2>--}}
     <!--Imagen con texto-->
     <div class="fondo card text-bg-light">
-        <img src="img/fondo1.jpg" class="card-img" alt="..." style="height:430px">
+        <img src="/img/3.jpg" class="card-img" alt="perfildoctor3" height=430px>
         <div class="card-img-overlay">
         <h5 class="card-title">Medicos</h5>
         </div>

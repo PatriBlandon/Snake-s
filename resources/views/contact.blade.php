@@ -9,8 +9,9 @@
         <div class="card text-bg-light">
             <img src="img/logo.jpeg" class="card-img" alt="...">
             <div class="card-img-overlay">
-              <h5 class="card-title">Contactanos</h5>
-              <p class="card-text"> Haz click a tu salud!</p>
+              <h1 class="card-title fw-bold">Contactanos</h1>
+
+              <p class="card-text" class="px-4"> Haz click a tu salud!</p>
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@
     <!--Imagen con texto-->
     <div class="container">
         <div class="fondo card text-bg-light">
-            <img src="img/fondo1.jpg" class="card-img" alt="..." style="height:430px">
+            <img src="/img/3.jpg" class="card-img" alt="perfildoctor2" width=280px height=420px>
             <div class="card-img-overlay">
             <h5 class="card-title">Clinicas</h5>
             </div>
@@ -22,7 +22,7 @@
                     {{--contenedor columna texto--}}
                 <div class="row">
                     <div class="col">
-                        <img src="./img/fondo1.jpg" alt="imagen clinica" width="300px">
+                        <img src="./img/CM.jpg" alt="imagen clinica" width="300px">
                     </div>
                     <div class="col">
                         <h2>Clinica Medica</h2>

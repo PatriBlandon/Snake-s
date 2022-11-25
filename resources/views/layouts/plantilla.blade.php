@@ -13,7 +13,7 @@
     <!--Aquí se sobre escribe el nombre en las inspecciones-->
     <meta name="description" content="@yield('meta-description', 'Default meta description')" />
     {{--<meta name="description" content="{{ $meta-description?? 'Default meta description'}}" />--}}
-    <link href="/boostrap/css/boostrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/modo.css" rel="stylesheet">
 
 </head>

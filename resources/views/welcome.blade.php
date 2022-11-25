@@ -8,18 +8,18 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 --}}
 
-<div class="container">
-
 @section('content')
       {{--Imagen de fondo con texto--}}
     <div class="container">
-        <section class="card text-bg-light" id="tarjeta">
-            <img src="img/fondo1.jpg" class="card-img" alt="...">
+        <section class="card text-bg-light" id="tarjeta-bienvenido">
+            <img src="img/1.jpg" class="card-img" alt="fondoclinica">
             <div class="card-img-overlay">
-              <h5 class="card-title">BIENVENIDO A HEALTHLINK</h5>
-              <p class="card-text"> Haz click a tu salud!</p>
+              <h1 class="card-title" class="display-1">BIENVENIDO A HEALTHLINK</h1> <hr>
+              <h3 class="card-text" class="display-3"> Haz click a tu salud!</h3>
             </div>
         </section>
     </div>
+    <br>
 @endsection
-</div>
+
+

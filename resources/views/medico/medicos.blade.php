@@ -5,12 +5,11 @@
 @section('meta-description', 'Medicos meta description')
 
 @section('content')
-    <h1>Medicos</h1>
 
-     <div class="fondo card text-bg-light">
-            <img src="img/fondo1.jpg" class="card-img" alt="...">
+     <div class="card text-bg-light">
+            <img src="/img/3.jpg" class="card-img" alt="perfildoctor">
             <div class="card-img-overlay">
-              <h5 class="card-title">Médicos</h5>
+              <h1 class="card-title">Médicos</h1>
               <p class="card-text"> Haz click a tu salud!</p>
             </div>
         </div><br>
@@ -19,31 +18,28 @@
         <div class="row justify-content-md-center">
             <div class="col-2 col-sm-3 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/patricia.jpg" class="card-img-top" alt="..."></a>
-                    <h5 class="card-title">Medico1</h5>
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic')}}" class="card-link">Card link</a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="/img/Doc1.jpg" class="card-img-top" alt="doctor1"></a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic')}}" class="card-link">Dr. Daniel Mendoza</a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Médico Especialista en Ordodoncia, Endodoncia.</p>
                     </div>
                   </div>
             </div>
             <div class="col-2 col-sm-3 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/leonardo.jpg" class="card-img-top" alt="..."></a>
-                    <h5 class="card-title">Medico2</h5>
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Card link</a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="/img/Doc2.jpg" class="card-img-top" alt="doctor2"></a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Dr. Jackson Ordoñez</a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Médico Especialista en Problemas del pie.</p>
                     </div>
                   </div>
             </div>
             <div class="col-1 col-sm-2 col-lg-3">
                 <div class="card" style="width: 18rem;">
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/andrea.jpg" class="card-img-top" alt="..."></a>
-                    <h5 class="card-title">Medico3</h5>
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Card link</a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/Doc3.jpg" class="card-img-top" alt="doctor3"></a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Dr. Laura Flores</a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Médico Especialista en Cardiologia</p>
                     </div>
                   </div>
             </div>
@@ -51,35 +47,33 @@
         <div class="row justify-content-md-center">
             <div class="col-2 col-sm-3 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/lauren.jpg" class="card-img-top" alt="..."></a>
-                    <h5 class="card-title">Medico4</h5>
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Card link</a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/Doc4.jpg" class="card-img-top" alt="doctor4"></a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Dr. Jorge Castillo</a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Médico Especialista en Cardiologia</p>
                     </div>
                   </div>
             </div>
             <div class="col-2 col-sm-3 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/lauren.jpg" class="card-img-top" alt="..."></a>
-                    <h5 class="card-title">Medico5</h5>
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Card link</a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/Doc5.jpg" class="card-img-top" alt="doctor5"></a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Dr. Karla Jarquín</a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Médico Especialista en Ginecologia</p>
                     </div>
                   </div>
             </div>
             <div class="col-1 col-sm-2 col-lg-3">
                 <div class="card" style="width: 18rem;">
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/andrea.jpg" class="card-img-top" alt="..."></a>
-                    <h5 class="card-title">Medico6</h5>
-                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Card link</a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}"><img src="img/Doc6.jpg" class="card-img-top" alt="doctor6"></a>
+                    <a href="{{ url ('/medicos/perfildoctor/descriptionmedic') }}" class="card-link">Dr. Victor Blandón</a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Médico General</p>
                     </div>
                   </div>
             </div>
         </div>
     </div>
+    <br>
 
 @endsection

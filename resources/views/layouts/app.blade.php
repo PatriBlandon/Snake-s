@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-<link href="{{ asset('/css/style.css') }}" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">-->
+<!--<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">-->
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healtlink -- @yield('title') </title>
+    <link href="/bootstrap/css/bootstrap.min" rel="stylesheet">
+    <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
 </head>
 <body>
 
@@ -28,5 +29,8 @@
     </nav>
 @endsection
 
+<script>
+    src="/boostrap/js/boostrap.min.js"
+</script>
 </body>
 </html>

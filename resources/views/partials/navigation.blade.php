@@ -21,7 +21,7 @@
                 </li>
             </ul>
             <form action="registrate">
-                <a href="{{ url('/') }}"><button class="btn btn-primary-outline-success btn-primary" type="submit">Registrate</button></a>
+                <a href="{{ url('#') }}"><button class="btn btn-primary-outline-success btn-primary" type="submit">Registrate</button></a>
             </form>
         </div>
     </div>

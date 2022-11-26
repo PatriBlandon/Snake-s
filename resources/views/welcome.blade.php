@@ -12,7 +12,7 @@
       {{--Imagen de fondo con texto--}}
     <div class="container">
         <section class="card text-bg-light" id="tarjeta-bienvenido">
-            <img src="img/1.jpg" class="card-img" alt="fondoclinica">
+            {{--<img src="img/1.jpg" class="card-img" alt="fondoclinica">--}}
             <div class="card-img-overlay">
               <h1 class="card-title" class="display-1">BIENVENIDO A HEALTHLINK</h1> <hr>
               <h3 class="card-text" class="display-3"> Haz click a tu salud!</h3>

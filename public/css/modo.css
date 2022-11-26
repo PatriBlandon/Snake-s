@@ -1,20 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@100;200 & family= Poppins:ital,wght@1,100 & display=swap');
-
 /*agregamos estilos de letras al body*/
 body{
-    font-family: 'Monserrat', 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
 
 body{
-    background-color: aliceblue;
+    background-color: white;
 }
 
 #menu a{
     font-size: 18px;
     font-weight: bold;
-    color: #3f3f3f;
 }
 
 #menu button{
@@ -22,26 +18,17 @@ body{
     font-weight: bold;
 }
 
-nav {
-    color: #000;
-}
-
-
+/*------  pie de pagina  --------*/
 footer{
     background-color: rgb(23, 163, 225);
     text-align: center;
 }
+/*------  estilos welcome  --------*/
 
-#tarjeta-bienvenido div > h1{
+h1, p, a, h5, h3, h4,h2{
     text-align: center;
 }
 
-h1, p{
-    text-align: center;
-}
-
-.carrusel-inner{
-    max-height: 39rem;
-}
+/*------  Carrusel descripcion de perfil doctor parte de valoraciones  --------*/
 
 

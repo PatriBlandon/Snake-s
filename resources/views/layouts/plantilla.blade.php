@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     {{--La etiqueta de titulo se añade aqui para todos y se cambia en cada una de las vistas--}}
     <title>HEALTHLINK -- @yield('title')</title>
     {{--Otra forma de escribirlo pero con modelo blade--}}
@@ -13,6 +14,9 @@
     <!--Aquí se sobre escribe el nombre en las inspecciones-->
     <meta name="description" content="@yield('meta-description', 'Default meta description')" />
     {{--<meta name="description" content="{{ $meta-description?? 'Default meta description'}}" />--}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/modo.css" rel="stylesheet">
 
@@ -25,34 +29,41 @@
 
     @yield('content')
 
-    <footer>
-        <div class="grupo1">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="" alt="">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>Sobre nosotros</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, magnam.</p>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fab-facebook"></a>
-                    <a href="#" class="fa fab-instagram"></a>
+    <footer class="bg-primary text-white pt-5 pb4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-light text-warning">Healthlink</h5>
+                        <p>Contactanos</p>
+                        <p>healthlinknic@gmail.com</p>
+                        <p>---  +505 57180261  -- </p>
+                    </div>                 
+                      
+                    <hr class="mb-4">
+
+                    <div class="row align-items-center">
+                        <p>
+                            Copyright @copy Healthlink 2022 All rights reserved by:
+                            <a href="#" style="text-decoration: none">
+                                <strong class="text-warning">HEALTHLINKNIC2022</strong>
+                            </a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <div class="grupo-2">
-            <small>&copy;2022 <b>HEALTHLINK</b> - Todos los derechos Reservados</small>
         </div>
     </footer>
 
 
-    <script src="/boostrap/js/boostrap.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/plugins/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+  <!--   Optional JS   -->
+    <script src="{{ asset('js/plugins/chart.js/dist/Chart.min.js') }}"></script>
+    <script src="{{ asset('js/plugins/chart.js/dist/Chart.extension.js') }}"></script>
+  <!--   Argon JS   -->
+    <script src="{{ asset('js/argon-dashboard.min.js?v=1.1.2') }}"></script>
+    <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
 </body>
-
 </html>

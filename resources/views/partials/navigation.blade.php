@@ -1,8 +1,8 @@
 {{--Navegator bar--}}
-<nav class="navbar navbar-expand-lg navbar-light bg-light border-3 border-bottom border-primary p-3" id="menu">
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-3 border-bottom border-primary" id="menu">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="/img/logohealthlink.png" alt="logohealthlink" width="140" height="40" class="d-inline-block align-text-top">
+            <img src="/img/logosinfondo.png" alt="logohealthlink" width="180" height="60" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -17,9 +17,6 @@
                     <a class="nav-link" href="{{ url('/medicos') }}">Médicos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('contacto') }}">Contactos</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="{{ url('acercade') }}">Acerca de</a>
                 </li>
             </ul>
@@ -29,3 +26,4 @@
         </div>
     </div>
 </nav>
+<br>
